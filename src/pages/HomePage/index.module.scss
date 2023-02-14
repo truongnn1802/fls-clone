@@ -1,0 +1,27 @@
+.support {
+  position: relative;
+  .textCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h2 {
+      color: #ffc800;
+      font-size: 35px;
+      font-weight: bold;
+      margin: 20px 0 5px;
+    }
+    > span {
+      color: #00578e;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    > p {
+      margin: 0 0 10px;
+    }
+  }
+}
+
+.boxList {
+}

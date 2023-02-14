@@ -1,0 +1,32 @@
+.navMenu {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  .container {
+    width: var(--width);
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-text-color);
+    .pathLeft {
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .partRight {
+    }
+    .navItem {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
+}
+.banner {
+  width: var(--width);
+  padding: 0 15px;
+  margin: 15px auto 0;
+  img {
+    width: 270px;
+  }
+}
